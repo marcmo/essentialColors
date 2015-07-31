@@ -14,6 +14,7 @@ some vim color schemes
 * molokai
 * solarized
 * wombat
+* smyck
 
 ## WOMBAT
 
@@ -83,4 +84,16 @@ There is also an alternative scheme under development for color terminals which 
 ```
 let g:rehash256 = 1
 ```
+
+## Smyck Color Scheme
+
+This is a color scheme suitable for Terminal.app, iTerm2, Vim, gVim,
+MacVim, Textmate and Sublime Text 2.
+
+The colors are carefully chosen and the contrasts are tuned so that it
+should not hurt the eyes even after a whole day of working.
+
+### Screenshots
+
+![Screenshot 1](http://smyck.org/smyck/color_1.jpg)
 
