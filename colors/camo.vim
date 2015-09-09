@@ -1,6 +1,5 @@
 " Vim color file
-" Maintainer:   Tim Aldrich <aldy0169@yahoo.com>
-" Last Change:  19 January 2002
+" Old Maintainer:   Tim Aldrich <aldy0169@yahoo.com>
 
 set background=dark
 hi clear
@@ -11,7 +10,7 @@ let g:colors_name="camo"
 hi Normal       guifg=oldLace            guibg=grey15
 hi Cursor       guifg=snow              guibg=bisque3
 hi CursorIM     guifg=OliveDrab4        guibg=bisque
-hi CursorLine   guibg=#404040
+hi CursorLine   term=NONE cterm=NONE guibg=#404040 ctermbg=240
 hi Directory    guifg=OliveDrab4        guibg=grey15
 hi DiffAdd      guifg=DarkOliveGreen1   guibg=grey15
 hi DiffChange   guifg=PaleGreen         guibg=grey15
@@ -76,3 +75,4 @@ hi Ignore       guifg=grey30
 hi Error        guifg=bisque    guibg=red
 hi Todo         guifg=red       guibg=bisque
 
+set background=dark
